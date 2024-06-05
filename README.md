@@ -3,8 +3,8 @@
 This project is a simple web application that displays a genealogical tree of operating systems. It provides information about various operating systems and their relationships, starting from the early systems to modern ones.
 
 ## Developers
-- Pedro Luca Prates
-- Lucas Cotrim
+- [Pedro Luca Prates](https://github.com/pedroluca)
+- [Lucas Cotrim](https://github.com/LucasCotrim2k4)
 
 ## Available Scripts
 
