@@ -15,7 +15,7 @@ import debianIcon from '../src/os-logos/debian.svg';
 import windowsPhoneIcon from '../src/os-logos/windows-phone.svg';
 import ibmIcon from '../src/os-logos/ibm.svg';
 import gnuIcon from '../src/os-logos/gnu.svg';
-// Importe outros ícones conforme necessário
+import msDosIcon from '../src/os-logos/ms-dos.svg';
 
 const icons = {
     redhat: redhatIcon,
@@ -29,6 +29,7 @@ const icons = {
     windows10: windows10Icon,
     windows7: windows7Icon,
     bsd: bsdIcon,
+    msDos: msDosIcon,
     debian: debianIcon,
     windowsPhone: windowsPhoneIcon,
     ibm: ibmIcon,

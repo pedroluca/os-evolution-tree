@@ -123,12 +123,12 @@ const treeData = {
         },
         {
             name: "86-DOS",
-            icon: "windows7",
+            icon: "msDos",
             description: "O 86-DOS é um sistema operacional desenvolvido pela Seattle Computer Products em 1980. Mais tarde adquirido pela Microsoft e adaptado para criar o MS-DOS, amplamente utilizado em computadores pessoais. O 86-DOS foi uma parte crucial da história da computação, influenciando o desenvolvimento de sistemas operacionais subsequentes.",
             children: [
                 {
                   name: "MS-DOS",
-                  icon: "windows7",
+                  icon: "msDos",
                   description: "O MS-DOS foi um sistema operacional popular nos anos 80 e 90 para computadores pessoais. Desenvolvido pela Microsoft, usava uma interface de linha de comando onde os usuários digitavam comandos. Foi substituído por sistemas mais avançados, mas ainda influencia os sistemas operacionais modernos.",
                   children: [
                     {
