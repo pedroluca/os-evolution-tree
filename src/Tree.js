@@ -106,18 +106,20 @@ const treeData = {
                         name: "WebOS",
                         icon: "linux",
                         description: "O webOS é um sistema operacional desenvolvido para dispositivos móveis, originalmente pela Palm e posteriormente adquirido pela Hewlett-Packard (HP). Focado na navegação na web e na execução de aplicativos baseados na web, apresenta uma interface intuitiva, multitarefa eficiente e integração com serviços online. Embora inicialmente usado em smartphones e tablets, também foi aplicado em smart TVs e outros dispositivos conectados."
-                      },
-                      {
-                        name: "Chrome OS",
-                        icon: "chrome",
-                        description: "O Chrome OS é um sistema operacional desenvolvido pelo Google, lançado em 2009, e projetado principalmente para dispositivos baseados na web, como Chromebooks e Chromeboxes. Ele é conhecido por sua simplicidade, segurança e integração com os serviços do Google. O Chrome OS é popular em educação, empresas e entre consumidores que buscam um sistema operacional leve e baseado na nuvem."
                       }
                   ]
                 },
                 {
                   name: "GNU",
                   icon: "gnu",
-                  description: "O GNU é um projeto de software livre lançado em 1983 por Richard Stallman. Seu objetivo era criar um sistema operacional completo e livre compatível com UNIX. Embora o núcleo do sistema, chamado GNU Hurd, não tenha sido concluído, muitas ferramentas e utilitários GNU são amplamente usados, incluindo GCC, bash e Emacs. O GNU é fundamental para o desenvolvimento do software livre e a promoção da liberdade de software."
+                  description: "O GNU é um projeto de software livre lançado em 1983 por Richard Stallman. Seu objetivo era criar um sistema operacional completo e livre compatível com UNIX. Embora o núcleo do sistema, chamado GNU Hurd, não tenha sido concluído, muitas ferramentas e utilitários GNU são amplamente usados, incluindo GCC, bash e Emacs. O GNU é fundamental para o desenvolvimento do software livre e a promoção da liberdade de software.",
+                  children: [
+                    {
+                      name: "Chrome OS",
+                      icon: "chrome",
+                      description: "O Chrome OS é um sistema operacional desenvolvido pelo Google, lançado em 2009, e projetado principalmente para dispositivos baseados na web, como Chromebooks e Chromeboxes. Ele é conhecido por sua simplicidade, segurança e integração com os serviços do Google. O Chrome OS é popular em educação, empresas e entre consumidores que buscam um sistema operacional leve e baseado na nuvem."
+                    }
+                  ]
                 }
             ]
         },
